@@ -4,7 +4,7 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: rgba(255, 144, 14, 0.1);
+    overflow-x: hidden;
 }
 
 .brand{
@@ -36,7 +36,7 @@ body{
 }
 
 .navbar, .banner{
-    max-width: 1080px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -53,6 +53,7 @@ body{
 
 .banner{
     text-align: center;
+    
 }
 
 .nav-item a{
@@ -62,6 +63,7 @@ body{
 .navbar{
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .banner-content{
@@ -86,3 +88,41 @@ body{
     width: 100%;
     height: 700px;
 }
+
+main{
+    max-width: 1280px;
+}
+
+main > section{
+    margin-top: 100px;
+}
+
+.our-features{
+    margin-left: 73px;
+    max-width: 530px;
+}
+
+.team-img-cotainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+#quick-list{
+    color: #727272;
+    font-weight: 400;
+    font-size: 2.8rem;
+}
+
+#of-our{
+    color: #131313;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+#feature{
+    color: #FF900E;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
