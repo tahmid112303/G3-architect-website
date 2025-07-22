@@ -126,3 +126,15 @@ main > section{
     font-size: 2.8rem;
 }
 
+@media screen and (max-width: 576px) {
+    .navbar, .navlink, .teams{
+        flex-direction: column;
+    }
+    .team-img-cotainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our-features{
+        margin-left: 20px;
+    }
+}
+
