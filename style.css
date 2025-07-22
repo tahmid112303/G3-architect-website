@@ -126,6 +126,36 @@ main > section{
     font-size: 2.8rem;
 }
 
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+
+.fact-num{
+    font-size: 2.8rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.fact-card{
+    text-align: center;
+    border: 1.5px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    
+}
+
 @media screen and (max-width: 576px) {
     .navbar, .navlink, .teams{
         flex-direction: column;
