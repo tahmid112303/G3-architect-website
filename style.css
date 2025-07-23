@@ -141,7 +141,6 @@ main > section{
 .fact-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    
 }
 
 .fact-num{
@@ -197,6 +196,14 @@ main > section{
     margin-bottom: 20px;
 }
 
+.feature-card h4{
+    margin-left: 20px;
+}
+
+.feature-card p{
+    margin-left: 20px;
+}
+
 .features{
     display: flex;
     gap: 100px;
@@ -222,7 +229,7 @@ main > section{
 
 
 
-footer{
+.footer{
     background-color: #FFE7F0;
     margin-top: 130px;
     padding: 50px 200px;
@@ -256,6 +263,15 @@ footer{
     .sponsor-companies{
         justify-items: center;
         gap: 40px;
+    }
+
+    .footer{
+        text-wrap: wrap;
+        width: 100%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+        text-align: center;
+        padding-left: 10px;
     }
 }
 
